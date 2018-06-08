@@ -45,7 +45,7 @@ vi /etc/hosts
 #start shell mongo
 mongo 10.142.0.3:27017
 
-#start namenode Prymary
+#start namenode Primary
 rs.initiate( {_id : "rs0",members: [{ _id : 0, host : "mongo01:27017"}]})
 
 #add slavy SecondNameNode
