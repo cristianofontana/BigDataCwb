@@ -1,6 +1,8 @@
-# Create Cluster Mongodb 3.6.5 
+# Redme
 
+- Create Cluster Mongodb 3.6.5 
 Este diretorio contem a instalação do mongodb 3.6.5 no sistema operacional CentOS7 no ambiente Google Cloud, e criação de um cluster MongoDB utilizando a ferramenta ReplicSet
+
 
 # Plus
 
