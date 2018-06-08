@@ -1,5 +1,4 @@
-
-#instalar mongodb 
+#Comandos para instalar mongodb, e configurar cluster utilizando replicaSet
 
 #adicionar no repositorio do centos 	
 sudo vi /etc/yum.repos.d/mongodb-org.repo
