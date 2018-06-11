@@ -19,6 +19,7 @@ sudo yum install -y mongodb-org
 #edit mongod.conf add replication
 sudo vi /etc/mongod.conf
 
+#https://docs.mongodb.com/manual/reference/configuration-options/
 replication:
   oplogSizeMB: 128
   replSetName: rs0
