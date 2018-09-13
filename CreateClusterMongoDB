@@ -30,7 +30,7 @@ replication:
 bindIp 10.142.0.2
 
 #execute
-cp -ra /var/lib/mongo  /home/var/lib/mongo
+cp -ra /var/lib/mongo  /home/var/lib/
 
 #Alter dbPath:
 dbPath: /home/var/lib/mongo
