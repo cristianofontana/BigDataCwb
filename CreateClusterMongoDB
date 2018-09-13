@@ -26,6 +26,14 @@ replication:
   secondaryIndexPrefetch: all
   enableMajorityReadConcern: false
 
+#Alter bindIp to ipadress
+bindIp 10.142.0.2
+
+#execute
+cp -ra /var/lib/mongo  /home/var/lib/mongo
+
+#Alter dbPath:
+dbPath: /home/var/lib/mongo
 
 #create directory default arc mongo 
 cd /
