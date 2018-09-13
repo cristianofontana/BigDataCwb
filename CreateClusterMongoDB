@@ -14,7 +14,7 @@ gpgkey=https://www.mongodb.org/static/pgp/server-3.6.asc
 yum -y repolist
 
 #install mongo
-sudo yum install -y mongodb-org
+sudo yum -y install mongodb-org
 
 #edit mongod.conf add replication
 sudo vi /etc/mongod.conf
