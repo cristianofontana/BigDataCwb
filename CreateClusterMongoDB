@@ -29,11 +29,11 @@ replication:
 #Alter bindIp to ipadress
 bindIp 10.142.0.2
 
-#execute
-cp -ra /var/lib/mongo  /home/var/lib/
-
 #Alter dbPath:
 dbPath: /home/var/lib/mongo
+
+#execute
+cp -ra /var/lib/mongo  /home/var/lib/
 
 #create directory default arc mongo 
 cd /
@@ -41,15 +41,16 @@ sudo mkdir data
 cd data/
 sudo mkdir db
 
+#edit host add dns to ip hosts 
+vi /etc/hosts
+10.142.0.2 mongo01
+10.142.0.3 mongo02
+
+
 # service mongod
 sudo systemctl status mongod
 sudo systemctl start mongod
 sudo systemctl staop mongod
-
-#edit host add dns to ip hosts 
-vi /etc/hosts
-10.142.0.2 mongo01
-10.142.0.3 mongo03
 
 #start shell mongo
 mongo 10.142.0.3:27017
