@@ -4,7 +4,8 @@ Este diretorio contem a instalação do mongodb 3.6.5 no sistema operacional Cen
 
 #Conteudo
 
-- Create Cluster Mongodb 3.6.5
+- Create Cluster Mongodb 3.6.5]
+- Create and Monitoring Cluster ElasticSeacrh
 - Outros bancos Nosql serão adicionados no futuro
 
 
