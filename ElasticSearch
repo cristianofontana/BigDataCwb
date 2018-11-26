@@ -28,7 +28,7 @@ explicar o que será feito
 		chown -R elastic usr/local/elasticsearch/*
 
 		#start service elasticsearch
-		./usr/local/elasticsearch/bin/elasticsearch &
+		./home/usr/local/elastic//bin/elasticsearch &
 
 	#testar se deu certo
 		curl -XGET "http://localhost:9200"
@@ -102,4 +102,4 @@ wget https://www.microsoft.com/en-us/download/confirmation.aspx?id=54671
 /*
 Alterar os parâmetros Xms e Xmx que representam, respectivamente, o valor inicial e final da memória dedicada ao java. Sendo que o recomendado é a metade da memória RAM disponível no servidor (porém este valor pode variar para mais ou para menos. Não recomendo que este valor ultrapasse 60% do valor da RAM disponível), no nosso exemplo a máquina possui 8G
 */ 
-sudo vi /etc/elasticsearch/jvm.options
+sudo vi /home/usr/local/elastic/config/jvm.options
