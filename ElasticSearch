@@ -1,14 +1,3 @@
-Introdução
-o que é elastic search ? 
-
-Nosso objetivo
-por que usar ? 
-
-Pré-requisitos
-explicar ambiente 
-	CentoOS 7 no google cloud 
-explicar o que será feito 
-
 #instalar 
 	#java
 		sudo yum -y install java 
